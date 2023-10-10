@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="./index.html">Página Inicial</a></li>
+                <li><a href="./Atendimento.html">Atendimento</a></li>
+                <li><a href="./Contato.html">Fale Conosco</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="./Assets/header2.jpg" alt="imagem do header" height="400px" width="1023px"> 
+            </div>
+    
+            <div>
+              <h1 style="text-align: center;"> Fale Conosco!
+              </h1>
+
+              <p style="text-align: center;"> <strong>Telefones</strong> (11) 9999-99999 ou (11) 9999-99999</p>
+              <h2 style="text-align: center;">
+              <form action="" method="post" id="Contato">
+                <div>
+                  <label for="name">Nome: </label>
+                  <input type="text" name="name" id="name" required />
+                </div>
+                <div>
+                  <label for="email">Email: </label>
+                  <input type="email" name="email" id="email" required />
+                </div>
+                <div>
+                    <label for="text">Assunto: </label>
+                    <input type="text" name="text" id="text" required />
+                 </div>
+                 
+                <div>
+                    <label for="mensagem">Mensagem: </label>
+                    <textarea style="margin: 3px;" name="mensagem" form="Contato" id="mensagem"></textarea>
+                  </div>
+                <div>
+                  <input type="submit" value="Enviar!" /> <input type="reset" value="Limpar!" />
+                </div>
+              </form>
+              </h2>
+
+            </div>
+    
+            <div style="text-align: center; padding-top: 68px;"  class="footer">
+                <strong> Contato: (11) 9999-99999 ou (11) 9999-99999</strong> 
+            </div>
+        </div>
+    </div>
+</body>
+</html>
